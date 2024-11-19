@@ -1,0 +1,66 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+
+# Cache files
+*.egg-info/
+.eggs/
+*.egg
+*.pickle
+*.pkl
+
+# Test coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+
+# MyPy type checker reports
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyInstaller
+# Usually contains binary and executable files, which shouldn't be versioned
+dist/
+build/
+
+# Logs
+*.log
+*.out
+*.err
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Tool-specific files
+Pipfile.lock
+poetry.lock
+*.sqlite3
+*.db
+
+# Configuration or environment files
+*.env
+*.ini
+*.cfg
+settings.py
